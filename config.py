@@ -23,10 +23,16 @@ class Params(object):
 
 
 class Config(Params):
+    # origin image path, required
     content_path = './contents/landscape02.jpg'
+    # path list of the style images, required
     style_path = ['./styles/shanshui.jpg']
+    # output path, required
     output = './outputs/landscape02_shanshui.jpg'
+    # initial image path, default None
     initial_image = None
+    # weight balance between content and style
     content_weight = 1.0
     style_weight = 10.0
+    # weights between multiple style images, the length must be the same as the style images.
     style_blend_weights = None
