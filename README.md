@@ -8,3 +8,5 @@ Set parameters in config.py.
 
 Reference:
 https://github.com/anishathalye/neural-style
+
+This is just code refactoring of the reference project.
